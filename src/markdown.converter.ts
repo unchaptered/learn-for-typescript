@@ -10,7 +10,7 @@ function getFormatedFolder(folderName: string) {
 }
 export function convertMarkdownFile(folderMap: Map<string, string[]>): string {
     let markdown = `
-# learn-for-typescript
+# learn-for-typescript [![README Generator](https://github.com/unchaptered/learn-for-typescript/actions/workflows/generator-readme.yaml/badge.svg)](https://github.com/unchaptered/learn-for-typescript/actions/workflows/generator-readme.yaml)
 
 learning for typescript from 2023-01-09
     
